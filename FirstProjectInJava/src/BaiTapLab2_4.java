@@ -9,11 +9,11 @@ public class BaiTapLab2_4 {
     {
       System.out.println("\n====================================");
       System.out.println("Menu:");
-      System.out.println("1. Giai phuong trinh bac nhat");
-      System.out.println("2. Giai phuong trinh bac hai");
-      System.out.println("3. Tinh tien dien");
-      System.out.println("4. Thoat");
-      System.out.print("Nhap lua chon: ");
+      System.out.println("1. Giải phương trình bậc nhất");
+      System.out.println("2. Giải phương trình bậc hai");
+      System.out.println("3. Tính tiền điện");
+      System.out.println("4. Thoát");
+      System.out.print("Nhập lựa chọn: ");
       choice = scanner.nextInt();
       switch (choice)
       {
@@ -30,10 +30,10 @@ public class BaiTapLab2_4 {
           BaiTapLab2_3.main(null);
           break;
         case 4:
-          System.out.println("Thoat khoi ung dung.");
+          System.out.println("Thoát khỏi ứng dụng.");
           break;
         default:
-          System.out.println("Lua chon khong hop le, vui long chon lai.");
+          System.out.println("ựa chọn không hợp lệ, vui lòng chọn lại.");
       }
     } while (choice != 4);
     scanner.close();
