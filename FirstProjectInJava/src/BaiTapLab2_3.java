@@ -4,7 +4,7 @@ public class BaiTapLab2_3 {
   public static void main(String[] args)
   {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Nhap so dien su dung trong thang: ");
+    System.out.print("Nhập số điện sử dụng trong tháng: ");
     int soDien = scanner.nextInt();
     double tienDien;
     if (soDien <= 50)
@@ -15,7 +15,7 @@ public class BaiTapLab2_3 {
     {
       tienDien = 50 * 1000 + (soDien - 50) * 1200;
     }
-    System.out.printf("Tien dien phai tra la: %.2f", tienDien);
+    System.out.printf("Tiền điện phải trả là: %.2f", tienDien);
     scanner.close();
   }
 }
