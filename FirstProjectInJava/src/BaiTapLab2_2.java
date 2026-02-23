@@ -1,7 +1,7 @@
 //Viết chương trình cho phép giải phương trình bậc hai trong đó các hệ số a, b và cnhập từ bàn phím
 import java.util.Scanner;
 
-public class BaiTapLap2_2 {
+public class BaiTapLab2_2 {
   public static void main(String[] args)
   {
     Scanner scanner = new Scanner(System.in);
